@@ -1,0 +1,60 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Using a simple, widely available font */
+    line-height: 1.6;
+    color: #333; /* Dark gray text for readability */
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px; /* Adds padding around the content */
+}
+
+header, footer {
+    background: #005691; /* Dark blue background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px 0; /* Padding above and below text */
+}
+
+header h1, footer p {
+    margin: 0.5em 0; /* Adds vertical spacing for elements */
+}
+
+section {
+    background: #ffffff; /* White background for sections */
+    margin: 20px 0; /* Adds margin above and below each section */
+    padding: 20px; /* Adds padding inside each section */
+    border: 1px solid #dddddd; /* Light gray border */
+}
+
+h2 {
+    color: #333333; /* Darker text for headings for better emphasis */
+}
+
+p {
+    margin-bottom: 10px; /* Adds bottom margin to paragraphs */
+}
+
+a {
+    color: #005691; /* Links color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for better interaction feedback */
+}
+
+/* Responsive design: Ensures the site looks good on all devices */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduces padding on smaller screens */
+    }
+
+    header, footer {
+        padding: 5px 0; /* Reduces padding for header and footer */
+    }
+}

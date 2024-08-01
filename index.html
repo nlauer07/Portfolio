@@ -4,42 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Welcome to My Portfolio</h1>
     <p>Nick Lauer</p>
-    <p>Here are some of my projects:</p>
+    <p>Explore my projects by category:</p>
   </header>
-  <section>
-    <h2>SheepScheduler</h2>
-    <p>A Java program which will generate a sheep shearing schedule based on a given file and priority scheduling. Only one sheep can be sheared at a time and the other sheep must wait to be sheared. While the other sheep are waiting, they are prioritized by smaller shearing times and then by their name in alphabetical order. The next sheep to be sheared has the highest priority. <a href="https://github.com/nlauer07/SheepScheduler">View on GitHub</a></p>
-  </section>
-  <section>
-    <h2>ManageBoard</h2>
-    <p>A Swift app for iOS and macOS that implements a basic to-do list with the ability to create alphanumeric lists of various texts. <a href="https://github.com/nlauer07/ManageBoardApp">View on GitHub</a></p>
-  </section>
-  <section>
-    <h2>RobotQueue</h2>
-    <p>A Java program that simulates a robot running a queue of commands to move around a board with obstacles. <a href="https://github.com/nlauer07/RobotQueue">View on GitHub</a></p>
-  </section>
-  <section>
-    <h2>TaskOrganizer</h2>
-    <p>A Java program in which the user can manage a collection of tasks. Each task has an associated action and priority. The tasks must be organized into a collection of different lists based on their priority value, where the highest priority is 0 and the lowest is 4. <a href="https://github.com/nlauer07/TaskOrganizer">View on GitHub</a></p>
-  </section>
-  <section>
-    <h2>PrizeShowdownGame</h2>
-    <p>A Java program that replicates the final game of a famous price related game show. In this version, a “Showcase” contains exactly 5 unique randomly selected prizes. The user must guess the sum of the prizes within $1,300 below or equal to the sum in order to win. <a href="https://github.com/nlauer07/PrizeShowdownGame">View on GitHub</a></p>
-  </section>
-  <section>
-    <h2>VectorMathProgram</h2>
-    <p>A Java program that performs a variety of vector math operations. These operations include adding vectors, subtracting vectors, and finding the magnitude of a vector. <a href="https://github.com/nlauer07/VectorMathProgram">View on GitHub</a></p>
-  </section>
-  <section>
-    <h2>TicTacToe215</h2>
-    <p>A beginning implementation of a TicTacToe game in C++ and Makefile. <a href="https://github.com/nlauer07/TicTacToe215">View on GitHub</a></p>
-  </section>
+  <div class="categories">
+    <div class="category">
+      <a href="java.html">
+        <h2>Java Project(s)</h2>
+      </a>
+    </div>
+    <div class="category">
+      <a href="swift.html">
+        <h2>Swift Project(s)</h2>
+      </a>
+    </div>
+    <div class="category">
+      <a href="cpp.html">
+        <h2>C++ Project(s)</h2>
+      </a>
+    </div>
+  </div>
   <footer>
   </footer>
 </body>

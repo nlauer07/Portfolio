@@ -25,23 +25,21 @@ header h1, footer p {
     margin: 0.5em 0; /* Adds vertical spacing for elements */
 }
 
-header .back-button {
-    color: #D3D4D7; /* Iron text */
-    background-color: #143AA2; /* Torea Bay background */
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    display: inline-block;
-    position: absolute; /* Positioning to the top left corner */
-    top: 20px;
-    left: 20px;
-    border: 1px solid #04060D; /* Set border color to Ebony */
-    outline: none; /* Remove outline */
+header .linkedin-button {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    right: 20px; /* Position to the right */
+    background-color: #0077b5; /* LinkedIn blue */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s ease; /* Add a smooth hover transition */
 }
 
-header .back-button:hover {
-    background-color: #3E8DE3; /* Royal Blue on hover */
+header .linkedin-button:hover {
+    background-color: #005582; /* Darker LinkedIn blue on hover */
 }
 
 .categories {
@@ -155,8 +153,8 @@ a:hover {
         max-width: 100%;
     }
 
-    header .back-button {
+    header .linkedin-button {
         top: 10px;
-        left: 10px;
+        right: 10px;
     }
 }
